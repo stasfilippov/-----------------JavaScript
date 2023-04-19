@@ -81,7 +81,7 @@ promise.then (function (result) {
 // проверка состояния промиса 
 let promise = new Promise(function(resolve, reject) {
 	setTimeout(function() {
-		let isError = false; // поставьте либо true, либо false
+		let isError = true; // поставьте либо true, либо false
 		
 		if (!isError) {
 			resolve([1, 2, 3, 4, 5]);
