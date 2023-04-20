@@ -1,7 +1,14 @@
 export default {
 	'/handler/': function ({get}) { //получаем объект в get в параметр функции
-		console.log(get.num1);
-		console.log(get.num2);
-		return 'form data received';
+		let arr = [];
+
+		for (key in get) {
+			arr.push(Number(get.key));
+		}
+
+		let sumArr = arr.reduce ((acc, el) => acc + el, 0);
+		let res = sumArr / arr.length;
+		return res;
 	}
 }
+
