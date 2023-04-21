@@ -14,3 +14,18 @@ console.log(elem2);
 
 let elem3 = document.querySelector('#elem3')
 console.log(elem3);
+
+let input = document.querySelector('#parent input')
+console.log(input);
+
+let elemInput = document.querySelector('.elem')
+console.log(elemInput);
+
+let parIdBlock = document.querySelector('#block p')
+console.log(parIdBlock);
+
+let parClassBlock = document.querySelector('.block p')
+console.log(parClassBlock)
+
+let wwwElem = document.querySelector('.www');
+console.log(wwwElem)
