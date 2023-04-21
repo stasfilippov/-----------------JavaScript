@@ -1,8 +1,18 @@
 'use strict'
 
 let button = document.querySelector('#button');
+let btnFirst = document.querySelector('#button1');
+btnFirst.addEventListener('click', () => alert('1'))
+
+let btnSecond = document.querySelector('#button2');
+btnSecond.addEventListener('click', () => alert('2'))
+
+let btnThird = document.querySelector('#button3');
+btnThird.addEventListener('click', () => alert('3'))
+
 console.log(button);
 
+button.addEventListener('click', () => console.log('!!!'))
 //Задание 1
 //Запишите ссылку на каждый из абзацев в отдельную переменную и выведите содержимое каждой из этих переменных в консоль.
 
