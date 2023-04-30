@@ -15,20 +15,39 @@
 // btn2.addEventListener('click', func2)
 
 
-function func() {
-	console.log('message');
+// function func() {
+// 	console.log('message');
+// }
+
+// const text1 = document.querySelector('#elem1')
+// const text2 = document.querySelector('#elem2')
+// const text3 = document.querySelector('#elem3')
+// const text4 = document.querySelector('#elem4')
+// const text5 = document.querySelector('#elem5')
+
+
+// text1.addEventListener('click', func)
+// text2.addEventListener('click', func)
+// text3.addEventListener('click', func)
+// text4.addEventListener('click', func)
+// text5.addEventListener('click', func)
+
+function func1 () {
+	console.log('1')
 }
 
-const text1 = document.querySelector('#elem1')
-const text2 = document.querySelector('#elem2')
-const text3 = document.querySelector('#elem3')
-const text4 = document.querySelector('#elem4')
-const text5 = document.querySelector('#elem5')
+function func2() {
+	console.log('2');
+}
 
+function func3() {
+	console.log('3');
+}
 
-text1.addEventListener('click', func)
-text2.addEventListener('click', func)
-text3.addEventListener('click', func)
-text4.addEventListener('click', func)
-text5.addEventListener('click', func)
+let elem = document.querySelector('#elem');
+
+elem.addEventListener('click', func1)
+elem.addEventListener('click', func2)
+elem.addEventListener('click', func3)
+
 
